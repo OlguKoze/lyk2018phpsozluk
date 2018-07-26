@@ -115,7 +115,12 @@
   <!-- /ERKEK İSİM MENÜSÜ -->
   <!-- /İSİM MENÜSÜ V4 -->
   <p>&nbsp;</p>
-
+  <div class="container">
+    <div class="row">
+      <h2>Hasan</h2>
+      <p>Güzellik, iyilik, hüsn sahibi olmak. Hasan b. Ali b. Ebi Talib: Ali (r.a.)’nin büyük oğlu. Peygamber Efendimizin torunu. Kur’an’da geçen kelimelerdendir</p>
+    </div>
+  </div>
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
