@@ -11,10 +11,10 @@ function isimBol($isim) {
   $ANLAM = "$ANLAM1 $ANLAM2 $ANLAM3";
   $Erkek = strpos($ANLAM, " Er. ");
   $Kadin = strpos($ANLAM, " Ka. ");
-  $Uniseks = strpos($ANLAM, "Erkek ve kadın adı olarak kullanılır");
+  $Uniseks = strpos($ANLAM, "Erkek ve Kız adı olarak kullanılır");
   $Cinsiyet = "";
   if($Erkek > 0 and $Kadin == "") $Cinsiyet="Erkek";
-  if($Erkek == "" and $Kadin > 0) $Cinsiyet="Kadın";
+  if($Erkek == "" and $Kadin > 0) $Cinsiyet="Kız";
   if($Uniseks > 0) $Cinsiyet="Uniseks";
 
   return array($AD, $ANLAM, $Cinsiyet);
@@ -47,9 +47,9 @@ function isimBol($isim) {
     echo "$AD nedir?";
     echo "$AD isminin manası nedir?";
     echo "$AD erkek ismi midir?";
-    echo "$AD kadın ismi midir?";
+    echo "$AD Kız ismi midir?";
     echo "$AD erkek adı midir?";
-    echo "$AD kadın adı midir?";
+    echo "$AD Kız adı midir?";
     echo "</p>";
 
   } // SEOListesiYaz
