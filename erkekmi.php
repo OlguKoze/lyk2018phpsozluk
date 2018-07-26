@@ -115,17 +115,59 @@
   <!-- /ERKEK İSİM MENÜSÜ -->
   <!-- /İSİM MENÜSÜ V4 -->
   <p>&nbsp;</p>
+
+
+  <!-- CARD -->
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-4 offset-md-4">
+        <div class="card">
+          <img class="card-img-top" src="img/erkekmi.jpg" alt="Erkek İsimleri">
+          <div class="card-body">
+            <h5 class="card-title">Erkek İsimleri</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="erkekmi.php" class="btn btn-primary">Listele</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- CARD -->
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+
+
+  <!-- X İLE BAŞLAYAN -->
+  <div class="container">
+    <div class="row">
+      <h2><b>A</b> Harfi ile başlayan <b>Erkek</b> isimleri</h2>
+      <div class="col-md-12">
+        <h5>Adil</h5>
+        <h5>Ahmet</h5>
+        <h5>Ayşe</h5>
+        <h5>Ayaz</h5>
+        <h5>Azat</h5>
+      </div>
+    </div>
+  </div>
+  <!-- / X İLE BAŞLAYAN -->
+
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+
+  <!-- X İSMİNİN İÇERİĞİ -->
   <div class="container">
     <div class="row">
       <h2>Hasan</h2>
       <p>Güzellik, iyilik, hüsn sahibi olmak. Hasan b. Ali b. Ebi Talib: Ali (r.a.)’nin büyük oğlu. Peygamber Efendimizin torunu. Kur’an’da geçen kelimelerdendir</p>
     </div>
   </div>
+  <!-- / X İSMİNİN İÇERİĞİ -->
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
