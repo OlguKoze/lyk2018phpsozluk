@@ -13,6 +13,9 @@
   <title>LYK2018-PHP</title>
 
   <style media="screen">
+    body{
+      margin: 50px;
+    }
     #ListeErkek{
       background-color:#99ffff;
       font-weight: bold;
@@ -37,9 +40,9 @@
 
 <body>
   <!-- NAVBAR -->
-  <div class="container">
+  <div class="container-fluid fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">İSİMLER SÖZLÜĞÜ</a>
+      <a class="navbar-brand" href="index.php">İSİMLER SÖZLÜĞÜ</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -80,21 +83,21 @@
             <div class="carousel-item active">
               <div class="jumbotron text-center bg-dark text-white">
                 <h1 class="display-4">ERKEK İSİMLERİ</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Birbirinden farklı ve daha önce duyulmamış <br> ilginç erkek bebek isimleri ...</p>
                 <a class="btn btn-primary btn-lg" href="erkekmi.php" role="button">Listele</a>
               </div>
             </div>
             <div class="carousel-item">
               <div class="jumbotron text-center bg-warning">
                 <h1 class="display-4">KIZ İSİMLERİ</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p>Kız bebeğiniz için isim araştırmaya başladınız ancak <br>hala karar veremediyseniz doğru yerdesiniz.</p>
                 <a class="btn btn-primary btn-lg" href="kizmi.php" role="button">Listele</a>
               </div>
             </div>
             <div class="carousel-item">
               <div class="jumbotron text-center bg-success">
                 <h1 class="display-4">ÜNİSEKS İSİMLERİ</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <p>Farklı, modern, değişik ve popüler erkek bebek isimleri arasından<br> seçiminizi hemen yapabilirsiniz.</p>
                 <a class="btn btn-primary btn-lg" href="uniseksmi.php" role="button">Listele</a>
               </div>
             </div>

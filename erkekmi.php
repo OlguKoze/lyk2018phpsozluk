@@ -13,6 +13,9 @@
   <title>LYK2018-PHP</title>
 
   <style media="screen">
+    body{
+      margin: 80px;
+    }
     #ListeErkek{
       background-color:#99ffff;
       font-weight: bold;
@@ -37,9 +40,9 @@
 
 <body>
   <!-- NAVBAR -->
-  <div class="container">
+  <div class="container-fluid fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">İSİMLER SÖZLÜĞÜ</a>
+      <a class="navbar-brand" href="index.php">İSİMLER SÖZLÜĞÜ</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
